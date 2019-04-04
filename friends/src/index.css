@@ -13,9 +13,21 @@ code {
     monospace;
 }
 h1 {
-  margin: 30px 30%;
+  margin: 0 30%;
 }
 .friendcard {
   margin: 30px 30%;
   border: 1px solid black;
+  padding: 50px 20px;
+  background: lightblue;
+  border-radius: 15px;
+}
+h2 {
+  margin: 0;
+}
+
+.friendform {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30%;
 }
